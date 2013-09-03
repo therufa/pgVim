@@ -14,6 +14,7 @@ it in you `~/.vimrc` (or `/etc/vimrc`) using the same command (source), as in
 following example:
 
 .vimrc  
+
     1 source /path/to/pvim.vim  
     2 source /path/to/libs/random.vim " random is used for avoiding collision  
 
