@@ -13,18 +13,16 @@ the :source command (for more information look at `:help source`), or you can ad
 it in you `~/.vimrc` (or `/etc/vimrc`) using the same command (source), as in
 following example:
 
-file .vimrc:
-1 source /path/to/pvim.vim
-2 source /path/to/libs/random.vim " random is used for avoiding collision
+.vimrc
+    1 source /path/to/pvim.vim  
+    2 source /path/to/libs/random.vim " random is used for avoiding collision
 
 Just put the functions provided by this package into your .vimrc and enjoy the
 following 3 procedures:
 
-:call PSQLInit({'host': <host>, 'port': …, 'db': …, 'usr': …, 'passwd': …, })  
-
-:call PSQLCopyTable( 't_test', [ 'db', [, truncfile: 0 ]])  
-
-:call PSQLCopySave('t_test' [, 'db'])  
+    :call PSQLInit({'host': <host>, 'port': …, 'db': …, 'usr': …, 'passwd': …, })
+    :call PSQLCopyTable( 't_test', [ 'db', [, truncfile: 0 ]])
+    :call PSQLCopySave('t_test' [, 'db'])
 
 PSQLInit will initialize Vim to know about your connect strings and so on.
 Then you can call PSQLCopyTable to load the entire content of a table from
