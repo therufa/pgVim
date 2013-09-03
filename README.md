@@ -13,9 +13,9 @@ the :source command (for more information look at `:help source`), or you can ad
 it in you `~/.vimrc` (or `/etc/vimrc`) using the same command (source), as in
 following example:
 
-.vimrc
+.vimrc  
     1 source /path/to/pvim.vim  
-    2 source /path/to/libs/random.vim " random is used for avoiding collision
+    2 source /path/to/libs/random.vim " random is used for avoiding collision  
 
 Just put the functions provided by this package into your .vimrc and enjoy the
 following 3 procedures:
