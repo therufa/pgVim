@@ -41,7 +41,7 @@ interlocking. You should really only do it when nobody else is on the system or
 when you are dealing with static data.
 
 -----------------------------------------------------------------------------
-Max Attila Ruf and Hans-Jürgen Schönig, 2013
+Max Attila Ruf and Hans-Jürgen Schönig, 2013  
 Cybertec Schönig & Schönig GmbH
 
 www.postgresql-support.de
