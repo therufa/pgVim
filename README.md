@@ -1,5 +1,5 @@
-PostgreSQL macros for VIM:
-==========================
+PostgreSQL integration for VIM:
+===============================
 
 This package contains a couple of Vim macros you can use to edit data stored in
 a PostgreSQL database directly in Vim.
