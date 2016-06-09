@@ -5,7 +5,7 @@
 let s:bash = "/bin/bash"
 let s:psql = "/usr/bin/psql"
 
-let s:host = ''
+let s:host = 'localhost'
 let s:usr  = ''
 let s:passwd = ''
 let s:db = ''
